@@ -1,4 +1,4 @@
-// Jeffrey Phelps 2018
+// Jeffrey Phelps - 2018
 
 
 // Initializing Express.js NPM package
@@ -42,8 +42,8 @@ app.get("/results", function(req, res){ // Using express to create HTTP route, w
 
 // APP SERVER
 
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("Movie App server up and running!");
-});
+const port = 3000
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 

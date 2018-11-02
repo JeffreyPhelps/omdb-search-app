@@ -1,17 +1,16 @@
 {
-    "name": "omdb-app",
-    "version": "1.0.0",
-    "description": "OMDB Movies App",
-    "main": "app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Jeffrey Phelps",
-    "license": "ISC",
-    "dependencies": {
-      "ejs": "^2.6.1",
-      "express": "^4.16.4",
-      "request": "^2.88.0"
-    }
+  "name": "omdb-app",
+  "version": "1.0.0",
+  "description": "OMDB Movies App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey Phelps",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
   }
-  
+}
