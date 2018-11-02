@@ -1,0 +1,19 @@
+
+
+<h2>Search the OMDB</h2>
+<h4>Enter a movie-related title, word, or phrase...</h4>
+
+
+<form action="/results" method="GET">
+    <input type="text" placeholder="Search Term" name="formSearch">
+    <input type="submit">
+</form>
+
+
+<!-- Displaying the app.js OMDB API response object, named "Search" -->
+<% response["Search"].forEach(function(arbitrary){ %> <!-- Accessing the response object variable from app.js and looping through each object item -->
+    <br><p><h4><%= arbitrary["Title"] %> - <%= arbitrary["Year"] %> - <%= arbitrary["Type"] %></h4> <!-- Listing each chosen object item -->
+    <img src="<%= arbitrary["Poster"] %>" /> </p> <br>
+<% }) %>
+
+
